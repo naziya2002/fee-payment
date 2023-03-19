@@ -722,3 +722,106 @@ a{
   }
 
 }
+@media (max-width:600px){
+  .header{
+    visibility: none;
+    display: none;
+  }
+  .section .container{
+  width: 100%;
+  }
+  .hold{
+    height: 0px;
+  }
+  .section .slider, .section .footer{
+    width: 100%;
+    padding: 0px;
+  }
+  h1.hero{
+    font-size: small;
+    padding-left: 20px;
+  }
+  .hero{
+    padding-left: 20px;
+    text-align: left;
+
+  }
+  .container > h1:after{
+    text-align: left;
+    margin: 0px;
+  }
+  .call {
+    display: flex;
+    padding-left: 20px;
+    align-items: left;
+  }
+  .section .container{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    
+  }
+  .col.four {
+    width: 50%;
+    padding-left: 30%;
+
+}
+.col .service, .col .feature{
+  font-size: larger;
+  width: 170px;
+}
+.col p, .col h1{
+  padding: 2px;
+
+}
+.col p{
+  width: 200px;
+  padding-top: 0px;
+}
+.col .icon{
+  line-height: 0px;
+  padding-left: 40px;
+}
+.contact-in{
+  flex-direction: column;
+}
+.contact-map{
+  width: 100%;
+}
+.footer-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-wrap-1{
+  flex-direction: column;
+}
+.footer-section{
+  width: 100%;
+
+}
+.form input{
+  display: none;
+}
+form .btn{
+  display: none;
+}
+.footer-bottom{
+  width: 100%;
+}
+.icon img{
+padding-bottom: 5px;
+align-items: top;
+padding-left: 0px;
+
+}
+#container{
+  padding-bottom: 0px;
+  height:1300px;
+}
+
+}
+
+
+
+
