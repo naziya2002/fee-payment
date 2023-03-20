@@ -36,7 +36,7 @@
                 </div>
                 <div>
                     <span>Course </span>
-                    <input type="text"  id="year" placeholder="" >
+                    <input type="text"  id="course" placeholder="" >
                 </div>
                 <div>
                     <span>Year Of Graduation</span>
@@ -111,7 +111,7 @@
          var name=document.getElementById('name');
            var email=document.getElementById('email');
            var mob_number=document.getElementById('mob_number');
-           var year=document.getElementById('year');
+           var course=document.getElementById('course');
            var fee=document.getElementById('fee');
            var graduation=document.getElementById('graduation');
            var button=document.getElementById('submit');
@@ -121,11 +121,11 @@
             set(ref(db,'Payment/'+name.value),{
                 
                 name:name.value,
-                year:year.value,
                 email:email.value,
                 mob_number:mob_number.value,
                 graduation:graduation.value,
                 fee:fee.value,
+                course:course.value
                 
             })
             .then(()=>{

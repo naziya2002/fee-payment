@@ -99,14 +99,28 @@ body {
 }
 
 .slidercontent {
+  background: url(../images/Studio_Project\ \(2\).jpeg);
+  background-repeat: none;
+  background-size: 100%;
+  background-position: 100%;
   text-align: center;
+  color: #000000;
+  
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
 }
 
 .hero {
   font-family: 'Roboto Slab', sans-serif;
-  color: white;
+  color: rgb(18, 15, 15);
   font-weight: normal;
   letter-spacing: 1px;
+  font-weight: 800;
+}
+#pay{
+  color: black;
+  font-weight: 800;
 }
 
 h1.hero {
@@ -136,10 +150,13 @@ h1.hero:after {
 
 .call span {
   display: inline;
-  border: 1px solid white;
+  border: 2px solid rgb(18, 11, 11);
   padding: 8px 13px;
   font-size: 20px;
   transition: background 0.15s linear;
+}
+a{
+  color: black;
 }
 
 .call span:hover {
