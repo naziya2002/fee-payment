@@ -38,6 +38,27 @@ body {
 /*
   Header
 */
+.college{
+  padding-left: 43%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.card-link{
+  color: white;
+ 
+}
+.card-link:hover{
+  color: blue;
+  text-decoration: dotted blue;
+}
+.fee{
+  color:whitesmoke;
+  font-weight: 700;
+}
+.card-body{
+  height: 60px;
+  background-color: #333;
+}
 
 .hold {
   height: 80px;
